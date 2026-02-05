@@ -1,34 +1,29 @@
 #1
 i = 1
-while i <= 10:
-    if i == 5:
-        break
+while i <= 5:
     print(i)
     i += 1
 #2
-while True:
-    x = int(input())
-    if x == 0:
-        break
-    print(x)
-#3
-nums = [1, 3, 5, 7]
+fruits = ["apple", "banana", "cherry"]
 i = 0
-
-while i < len(nums):
-    if nums[i] == 5:
-        break
-    print(nums[i])
+while i < len(fruits):
+    print(fruits[i])
     i += 1
+#3
+i = 1
+total = 0
+while i <= 10:
+    total += i
+    i += 1
+print(total)
 #4
-while True:
-    password = input()
-    if password == "1234":
-        break
+word = "hello"
+i = 0
+while i < len(word):
+    print(word[i])
+    i += 1
 #5
-i = 10
-while True:
+i = 5
+while i > 0:
     print(i)
-    if i == 1:
-        break
     i -= 1
